@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accueil - Tech House</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+  .featured-products, .special-offers {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .product, .offer {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  .product img, .offer img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px; /* Limite la hauteur des images */
+  }
+  .call-to-action {
+    background-color: #342b36;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .call-to-action a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  button {
+    background-color: #79617e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<!-- Contenu principal -->
+  <main>
+  <!-- Section Produits en vedette -->
+   <section class="featured-products">
+    <article class="product">
+      <img src="https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/p/c/pc-portable-gamer-dell-g15-5530-i7-13e-gen-16go-rtx-3050-noir-55.jpg" alt="Nom du Produit 1">
+      <h3>PC Portable Gamer GIGABYTE G5 GE i5 12è Gén 8Go RTX 3050</h3>
+      <p>i5 12é gén - 8Go DDR4 - 512Go SSD - GeForce RTX 3050  </p>
+      <p>Prix:2 549,000 DT</p>
+      <button>Ajouter au panier </button>
+    </article>
+    <article class="product">
+      <img src="https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/b/i/bison-pro-rb1_4_1_1.jpg" alt="Nom du Produit 2">
+      <h3>Écouteurs Sans Fil REALME AirBuds Pro - Noir</h3>
+      <p>
+        Technologie de connectivité: Bluetooth 5.0  
+         </p>
+      <p>Prix:319 DT</p>
+      <button>Ajouter au panier </button>
+    </article>
+    <!-- Ajoutez plus de produits ici -->
+  </section>
+
+  <!-- Section Offres spéciales -->
+  <section class="special-offers">
+    <article class="offer">
+      <img src="https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/i/m/imprimante-jet-d_encre-canon-pixma-g-2410-multifonction-3en1-couleur_1.jpg" alt="Offre Spéciale 1">
+      <h3>Imprimante Jet D'encre CANON PIXMA G-2410 Multifonction 3En1 Couleur</h3>
+      <p>Imprimante à réservoir intégré - Fonctions: Impression, copie et numérisation </p>
+      <p>Prix:400 DT</p>
+      <button>Ajouter au panier </button>
+    </article>
+    <article class="offer">
+      <img src="https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/c/o/coffret-w26-pro-max-serie-8-montre-connectee-2-bracelets-airpods-noir1.jpg" alt="Offre Spéciale 2">
+      <h3>Coffret W26 PRO MAX Serie 8 Montre Connectée + 2 Bracelets + Airpods - Noir</h3>
+      <p>offert W26 PRO MAX Serie 8  </p>
+      <p>prix:45 DT</p>
+      <button>Ajouter au panier</button>
+    </article>
+    <!-- Ajoutez plus d'offres ici -->
+  </section>
+
+  <!-- Appel à l'action -->
+  <div class="call-to-action">
+    <p>Découvrez notre large gamme de produits!</p>
+    <a href="./new-products.component.html">Voir Plus</a>
+  </div>
+ </main>
+<!-- <app-nav-bar></app-nav-bar> -->
+</body>
+</html>
